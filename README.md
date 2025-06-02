@@ -82,11 +82,11 @@
 - 정렬 알고리즘은 직접 구현할 것 (선택정렬, 버블정렬 등)
 - 함수 구조는 아래 예시를 참고하여 작성할 것:
 
-```c
-void sort_array(int arr[], int size);     // 정렬 함수
-int find_min(int arr[], int size);        // 최소값 반환
-int find_max(int arr[], int size);        // 최대값 반환
-```
+  ```c
+  void sort_array(int arr[], int size);     // 정렬 함수
+  int find_min(int arr[], int size);        // 최소값 반환
+  int find_max(int arr[], int size);        // 최대값 반환
+  ```
 
 - 포인터, malloc, 동적 배열, 라이브러리 정렬 함수 사용 금지
 
