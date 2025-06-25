@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+	int a = 2147483647;
+	int b = -2147483648;
+	
+	printf("%d\n", a+1); //int최대값 2147483647을 초과하여 오버플로 발생
+	printf("%d\n", b+1); //범위 내라서 -2147483647이 됨
+
+	return 0;
+}
